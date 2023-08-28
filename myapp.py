@@ -18,7 +18,7 @@ def hello_name(name):
    f.write(str(count))
    f.close()
 
-   return render_template('hello.html', name=name, count=count)
+   return render_template('index.html', name=name, count=count)
 
 if __name__ == '__main__':
    app.run(host ='0.0.0.0', debug = True)
